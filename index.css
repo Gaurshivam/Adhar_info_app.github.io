@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: cornsilk;
+    overflow: hidden;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    max-width: 70%;
+    max-height: 450px;
+    margin-left: 200px;
+    justify-content: center;
+     align-items: center;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+h3{
+    background-color: rgb(86, 86, 205);
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.heading{
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.heading1{
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    width: 270px;
+    padding: 10px 20px;
+    padding-left: 60px;
+    font-size: 20px;
+    background-color: rgb(86, 86, 205);
+}
+.heading2{
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    width: 270px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    padding-left: 60px;
+    font-size: 20px;
+    background-color: rgb(86, 86, 205);
+}
+span{
+    border: 1px solid black;
+    height: 30px;
+    width: 30%;
+    padding: 5px 10px;
+    float: left;
+    text-align: center;
+}
+
+.table-sec{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+table{
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    /* margin-left: 55px; */
+}
+
+.add{
+    color: white;
+    background-color: blue;
+    position: fixed;
+    margin-top: 130px;
+    margin-left: 380px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
